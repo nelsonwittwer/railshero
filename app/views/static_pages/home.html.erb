@@ -1,2 +1,60 @@
-<h1>StaticPages#home</h1>
-<p>Find me in app/views/static_pages/home.html.erb</p>
+<% provide(:title, 'Home') %>
+<div class="row">
+    		<div id="landingHeader" class="span12">
+    			<div class="row">
+    				<div id="logoMobileNew" class="span6 visible-phone"><%= image_tag("mobilelogo.png", alt: "Rails Hero Logo")%></div>
+    				<div class="hidden-phone hidden-tablet"><div id="moon" class="span3"><%= image_tag("moon.png") %></div></div>
+    			</div>
+    			
+    			<div class="row">
+    				<div id="callout" class="span6 offset5">
+    					
+    					<div class="row">
+	    					<div class="span5">
+	    						<h1>Learn Rails<br> For Free</h1>
+	    						<p>Our community gathers the web&#39;s best <strong>free</strong> Rails educational resources and shares them with you. </p>
+	    						<div id="newJoin" class="btn-large btn-warning" type="button" value="Join Now!"><h3>Join the Community<h3><p>100% free. Always and Forever.</p></div>
+	    					</div> 
+	    					
+    					</div>
+    					
+    				</div>
+    			</div>
+    			
+    			
+    			<div class="row">
+    				<div class="hidden-phone">
+    					<div id="skyline" class="span12"> <%= image_tag("heroskyline.png") %></div>
+    				</div>
+    			</div>
+    		</div>
+    	</div>
+    	
+    	<div id="howHome" class="span12">
+    			<div class="row">
+    				<div class="how span3">
+    					<h3>How does it work?</h3>
+    				</div>
+    				
+    				<div class="howWork span9" >
+    					<div class="work row">
+    						<h3>Community Currated Content</h3>
+    						<%= image_tag("curated.png") %>
+    						<p>Our community has identified the best free learning material on the web for getting started with Rails. We have gathered it all under one roof to save you time, heartache, and even lowered your blood pressure. Aren&#39;t we nice?</p>
+    					</div>
+    					
+    					<div class="row">
+    						<h3>Rails for Beginners</h3>
+    						<%= image_tag("beginner.png") %>
+    						<p>All of the material we have gathered is geared towards beginners. We do solemly swear that we will not destroy your brain with codez that will break your brain. We are all new at this.</p>
+    					</div>
+    					
+    					<div class="row">
+    						<h3>Become a Contributor</h3>
+    						<%= image_tag("give.png") %>
+    						<p>If you have spot any material on the web that you feel would be a good resource for our community, share what you find! You will be thanked with pictures of dancing cats.</p>
+    					</div>
+    					
+    				</div>
+    			</div>
+    	</div>
